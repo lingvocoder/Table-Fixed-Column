@@ -9,8 +9,8 @@
         window.onload = function () {
             let options = new GridViewScrollOptions();
             options.elementID = "gvMain";
-            options.width = '70%';
-            options.height = '70%';
+            options.width = 1250;
+            options.height = 400;
             options.freezeColumn = true;
             options.freezeFooter = false;
             options.freezeColumnCssClass = "GridViewScrollItemFreeze";
@@ -25,10 +25,10 @@
     </script>
 </head>
 <body>
-<div style="width:1550px;height:550px;border:1px solid #CCCCCC;">
+<div class="container" >
     <table id="gvMain" style="width:100%;border-collapse:collapse;">
         <tr class="GridViewScrollHeader">
-            <td class="dummy-cell" colspan="5">Product</td>
+            <th class="dummy-cell" colspan="5">Product</th>
             <td colspan="4">Январь</td>
             <th colspan="4">Февраль</th>
             <th colspan="5">Март</th>

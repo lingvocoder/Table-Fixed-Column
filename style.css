@@ -7,7 +7,13 @@ body {
     font-weight: 400;
     color: #333333;
 }
-
+.container {
+    margin: 0 auto;
+    width: 1250px;
+    padding: 25px;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 .GridViewScrollHeader th, .GridViewScrollHeader td {
     padding: 10px 8px;
     font-weight: 700;
